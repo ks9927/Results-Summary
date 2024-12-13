@@ -125,10 +125,22 @@ body {
 .number {
   color: hsla(224, 30%, 27%, 0.6);
   font-weight: var(--md-weight);
+  margin-left: 7em;
 }
-
+.verbal-num {
+ position: relative;
+ left: 15px;
+}
+.visual-num {
+  position: relative;
+  left: 22px;
+}
 .num-bold {
   color: var(--d-gray-blue);
+}
+
+.title {
+  margin-left: 0.5em;
 }
 
 .memory-summary {
@@ -158,6 +170,13 @@ body {
 .bubble {
   border-radius: 10px;
   margin-top: 1em;
+  display: flex;
+  padding: 1em;
+}
+
+
+.continue-btn {
+  
 }
 /* Author Div */
 .attribution { font-size: 11px; text-align: center; }
