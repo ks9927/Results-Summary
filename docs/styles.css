@@ -47,9 +47,9 @@ body {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
+
+/* Results Div */
 
 .results-div {
   background-color: var(--l-slate-blue);
@@ -94,6 +94,21 @@ body {
   font-weight: var(--md-weight);
   position: relative;
   top: 20px;
+}
+
+/* SUmmary Div */
+
+.summary-div {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-left: 1.5em;
+}
+
+.summary-title {
+  color: var(--d-gray-blue);
+  font-weight: var(--lg-weight);
+  margin-top: 1em;
+  margin-bottom: 1.25em;
 }
 
 
