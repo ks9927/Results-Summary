@@ -1,2 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /*Primary  Colors */
+  --light-red: hsl(0, 100%, 67%);
+  --orange-yellow: hsl(39, 100%, 56%);
+  --green-teal: hsl(166, 100%, 37%);
+  --cobalt-blue: hsl(234, 85%, 45%);
+
+  /* Gradients Background */
+  --l-slate-blue: hsl(252, 100%, 67%);
+  --l-royal-blue: hsl(241, 81%, 54%);
+
+  /* Circle */
+  --violet-blue: hsla(256, 72%, 46%, 1);
+  --persian-blue:  hsla(241, 72%, 46%, 0);
+
+  /* Neutral */
+  --white: hsl(0, 0%, 100%);
+  --pale-blue: hsl(221, 100%, 96%);
+  --light-lavender: hsl(241, 100%, 89%);
+  --d-gray-blue: Dark gray blue: hsl(224, 30%, 27%);
+
+  /* Fonts */
+  --sm-weight: 500;
+  --md-weight: 700;
+  --lg-weight: 800;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 1.125rem;
+  background-color: cornsilk;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+
+/* Author Div */
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
