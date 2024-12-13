@@ -52,7 +52,7 @@ body {
 /* Results Div */
 
 .results-div {
-  background-color: var(--l-slate-blue);
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   width: 100%;
   padding: 3.5em 2em;
   border-bottom-right-radius: 10px;
@@ -68,7 +68,7 @@ body {
 }
 
 .results-score {
-  background-color: var(--violet-blue);
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0) );
   border-radius: 50%;
   position: relative;
   bottom: 20px;
