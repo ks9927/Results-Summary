@@ -3,41 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Results summary component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
+  <link rel="stylesheet" href="styles.css">
+  <title>Results Summary Component</title>
+  </head>
 <body>
+<!--Main Card-->
+ <div class="card">
+  <!--Results Div-->
+  <div class="results-div">
+    <p class="results-title">Your Results</p>
+    <p class="results-score"><span class="bold">76</span>out of 100</p>
+    <p class="results-great">Great</p>
+    <p class="results-desc">You scored higher than 65% of the people who have taken these tests.</p>
+  </div>
 
-  Your Result
-  76
-  of 100
+  <!--SUmmary Div-->
+      <div class="summary-div">
+          <p class="summary-title">Summary</p>
+          <!--Summary Details-->
+          <div class="summary-details">
+            <!--Reaction-->
+            <div class="reaction-summary bubble">
+              <img class="icon"  src="assets/images/icon-reaction.svg" alt="icon of lightining bolt">
+              <p class="reaction-title">Reaction</p>
+              <p class="reaction-num number"><span class="num-bold">80</span>/100</p>
+            </div>
 
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
+              <!--Memory-->
+              <div class="memory-summary bubble">
+                <img class="icon"  src="assets/images/icon-memory.svg" alt="icon of brain">
+                <p class="memory-title">Memory</p>
+                <p class="memory-num number"><span class="num-bold">92</span>/100</p>
+              </div>
 
-  Reaction
-  80 / 100
+                <!--Verbal-->
+            <div class="verbal-summary bubble">
+              <img class="icon"  src="assets/images/icon-verbal.svg" alt="icon of speech bubble">
+              <p class="verbal-title">Verbal</p>
+              <p class="verbal-num number"><span class="num-bold">61</span>/100</p>
+            </div>
 
-  Memory
-  92 / 100
+              <!--Visual-->
+              <div class="visual-summary bubble">
+                <img class="icon" src="assets/images/icon-visual.svg" alt="icon of eye">
+                <p class="visual-title">Visual</p>
+                <p class="visual-num number"><span class="num-bold">72</span>/100</p>
+              </div>
+          </div>
 
-  Verbal
-  61 / 100
+          <button class="continue-btn">Continue</button>
 
-  Visual
-  72 / 100
-
-  Continue
+      </div>
+ </div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
