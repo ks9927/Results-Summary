@@ -54,7 +54,7 @@ body {
 .results-div {
   background-color: var(--l-slate-blue);
   width: 100%;
-  padding: 5em 0;
+  padding: 3.5em 2em;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
   text-align: center;
@@ -64,7 +64,7 @@ body {
   color:var(--light-lavender);
   font-weight: var(--lg-weight);
   position: relative;
-  bottom: 50px;
+  bottom: 45px;
 }
 
 .results-score {
@@ -92,6 +92,8 @@ body {
 .results-desc {
   color:var(--light-lavender);
   font-weight: var(--md-weight);
+  position: relative;
+  top: 20px;
 }
 
 
