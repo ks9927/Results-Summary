@@ -102,6 +102,7 @@ body {
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
   margin-left: 1.5em;
+  margin-right: 1.5em;
 }
 
 .summary-title {
@@ -112,13 +113,52 @@ body {
 }
 
 
+.reaction-summary {
+  background-color: hsla(0, 100%, 67%, 0.2);
+}
 
+.reaction-title {
+  color: var(--light-red);
+  font-weight: var(--md-weight);
+}
 
+.number {
+  color: hsla(224, 30%, 27%, 0.6);
+  font-weight: var(--md-weight);
+}
 
+.num-bold {
+  color: var(--d-gray-blue);
+}
 
+.memory-summary {
+  background-color: hsla(39, 100%, 56%, 0.2);
+}
+.memory-title {
+  color: var(--orange-yellow);
+  font-weight: var(--md-weight);
+}
 
+.verbal-summary {
+  background-color: hsla(166, 100%, 37%, 0.2);
+}
+.verbal-title {
+  color: var(--green-teal);
+  font-weight: var(--md-weight);
+}
 
+.visual-summary {
+  background-color: hsla(234, 85%, 45%, 0.2);
+}
+.visual-title {
+  color: var(--cobalt-blue);
+  font-weight: var(--md-weight);
+}
 
+.bubble {
+  border-radius: 10px;
+  margin-top: 1em;
+}
 /* Author Div */
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
